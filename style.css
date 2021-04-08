@@ -20,6 +20,10 @@ h2 {
     font-size: 340%;
 }
 
+h3 {
+    color: #EA8700;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -58,7 +62,9 @@ span {
     list-style: none;
     display: flex;
 
-    margin: 35px 0 0 1090px;
+    margin: 0 0 0 1090px;
+
+    padding: 35px 0;
 
     position: relative;
 }
@@ -72,11 +78,11 @@ span {
     padding: 500px 0 200px 150px;
 }
 
-#about_container, #whom_container {
+#about_container, #whom_container, #why_container, #price_container, .footer_container {
     background-color: #D7D7D7;
 }
 
-.about_main, .whom_main {
+.about_main, .whom_main, .why_main, .price_main, .footer {
     background-color: #FFF;
     width: 70%;
     margin: 0 auto;
@@ -107,4 +113,63 @@ span {
 .whom_title {
     margin-left: 900px;
     margin-bottom: 50px;
+}
+
+.whom_image {
+    width: 270px;
+    height: 250px;
+    margin: 0;
+}
+
+.why_title {
+    text-align: center;
+}
+
+.why_list {
+    margin-top: 30px;
+    list-style-image: url(jpg/check.png);
+}
+
+.single_plan {
+    text-align: center;
+}
+
+.plan_text {
+    margin-bottom: 20px;
+}
+
+.plan_content {
+    border-left: 2px solid #EA8700;
+    border-right: 2px solid #EA8700;
+    background-color: lightgray;
+}
+
+.plan_content1 {
+    background-color: #EA8700;
+    color: #FFF;
+}
+
+.plan_container {
+    width: 70%;
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    color: #747474;
+    display: flex;
+}
+
+.footer_logo {
+    width: 100px;
+    height: 100px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer_text {
+    font-size: 150%;
+    margin-left:  800px;
+    padding: 25px 0;
 }
