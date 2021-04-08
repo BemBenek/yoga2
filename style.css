@@ -130,8 +130,22 @@ span {
     list-style-image: url(jpg/check.png);
 }
 
+.plan_container {
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 21px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    color: #747474;
+    display: flex;
+}
+
 .single_plan {
-    text-align: center;
+    text-align: center; 
+}
+
+.single_plan:not(:last-child) {
+    margin-right: 35px;
 }
 
 .plan_text {
@@ -147,16 +161,6 @@ span {
 .plan_content1 {
     background-color: #EA8700;
     color: #FFF;
-}
-
-.plan_container {
-    width: 70%;
-    justify-content: space-evenly;
-    font-size: 21px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 30px;
-    color: #747474;
-    display: flex;
 }
 
 .footer_logo {
